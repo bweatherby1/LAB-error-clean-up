@@ -1,5 +1,10 @@
-// import '../styles/main.scss'; // You have to import your styles for them to work. Comment in this line
+import '../styles/main.scss';
 
+const init = () => {
+  document.querySelector('#app').innerHTML = ('<h1>HELLO! You are up and running!</h1>');
+};
+
+init();
 const students = [];
 const voldysArmy = [];
 // target expel buttons to move to voldys army
